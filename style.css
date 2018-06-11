@@ -1,0 +1,68 @@
+/* Welcome to the jungle, it gets worse here every day */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18pt;
+    text-align: center;
+    margin: auto;
+
+}
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    margin: 10px;
+    padding: 30px;
+
+}
+
+section {
+    width: 495px;
+    height: 215px;
+    float: left;
+}
+
+aside {
+    float: left;
+    width: 305px;
+    height: 215px;
+    /* I couldn't seem fo find a way to make neighboring elements match in height so I just set both their heights to 215px */
+
+}
+
+footer {
+    float: left;
+    width: 880px;
+    /* width: 100%; */
+    /* I don't know why 100% width doesn't work */
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    margin: 30px -15px -15px -15px;
+    padding: 10px;
+
+
+}
+
+h1, p {
+    font-size: 18pt;
+    color: #777;
+    background: #ebebeb;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+/* h2, h3 {
+    display: inline;
+} */
